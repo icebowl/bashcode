@@ -1,0 +1,3 @@
+perl -CA -le 'print ord shift' 😈
+perl -CS -le 'print chr shift' 128520
+printf "\U$(printf %08x 128520)\n"
